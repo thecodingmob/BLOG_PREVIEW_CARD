@@ -25,7 +25,7 @@ body {
   background-color: var(--yellow);
 }
 section#wrapper {
-  width: 355px;
+  width: 100px;
   padding: 17px;
   border: 1px solid black;
   position: absolute;
