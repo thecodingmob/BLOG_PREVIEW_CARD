@@ -1,31 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Blog preview card</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<section id="wrapper">
-    <aside class="w-header">
-        <img src="assets/images/illustration-article.svg" alt="illustration article" height="268" width="320">
-    </aside>
-    <aside class="w-body">
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="wrapper">
+      <aside class="w-header">
+        <img
+          src="assets/images/illustration-article.svg"
+          alt="illustration article"
+          height="268"
+          width="320"
+        />
+      </aside>
+      <aside class="w-body">
         <small>Learning</small>
-        <small>Published 21 Dec 2023</small>
-        
-        <h1>HTML & CSS foundations</h1>
-        <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
-    </aside>
-    <aside class="w-footer">
-        <img src="assets/images/image-avatar.webp" alt="avatar image of writer" height="64" width="65">
+        <small>Published <time datetime="2023-12-21">21 Dec 2023</time></small>
+
+        <h1>
+          <abbr title="Hyper Text Markup Language">HTML</abbr> &
+          <abbr title="Cascading Stylesheet">CSS</abbr> foundations
+        </h1>
+        <p>
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+      </aside>
+      <aside class="w-footer">
+        <img
+          src="assets/images/image-avatar.webp"
+          alt="avatar image of writer"
+          height="64"
+          width="65"
+        />
         <p>Greg Hooper</p>
-    </aside>
-</section>
-</body>
+      </aside>
+    </section>
+  </body>
 </html>
